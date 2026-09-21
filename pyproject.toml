@@ -1,0 +1,22 @@
+[project]
+name = "agro-data-debt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Luis Henrique Fernandes", email = "luis.h.fernandes@hotmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-duckdb>=1.11.0",
+    "duckdb>=1.5.5",
+    "polars>=1.44.2",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+agro-data-debt = "agro_data_debt:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
