@@ -19,6 +19,7 @@ dbt/target/
 dbt/logs/
 dbt/dbt_packages/
 logs/
+dbt/.user.yml
 
 # MAC
 .DS_Store
